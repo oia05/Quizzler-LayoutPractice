@@ -2,17 +2,16 @@
 //  Question.swift
 //  Quizzler-iOS13
 //
-//  Created by OmarAssidi on 24/09/2023.
-//  Copyright © 2023 The App Brewery. All rights reserved.
+//  Created by Omar Assidi on 24/11/2024.
+//  Copyright © 2024 The App Brewery. All rights reserved.
 //
 
-import Foundation
-
 struct Question {
-    let questionText: String
-    let correctAnswer: String
+    var text: String
+    var answer: String
+    
     init(q: String, a: String) {
-        questionText = q
-        correctAnswer = a
+        text = q
+        answer = a
     }
 }
